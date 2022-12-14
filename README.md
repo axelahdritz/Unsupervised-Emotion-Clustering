@@ -100,4 +100,55 @@ To subjectively evaluate the graph, I looked at the sentence from top to bottom 
 
 In this paper I perform unsupervised emotion clustering on a personal language corpus using the K-Means algorithm and demonstrate its efficacy using only VAD lexical features and a few emotionally rich acoustic features. However, this approach suffers from a few limitations. First, it is hard to evaluate models like these, and there is no performance guarantee on any individual's personal data set. Second, the language analyzed is limited to the 10,000 words that exist in the VAD corpus. This excludes any emotions that I express in my native language of Swedish. Third, due to the different seeding of the K-Means algorithm, the classes do not necessarily converge to the same groupings on each iteration. The lack of deterministic outcomes is also due to the continuous space of emotions, that do not fall into distinct classes. Even humans approaching the same data would have a hard time agreeing on the number or name of classes into which to classify these utterances. More testing must be done in the future using labeled corpuses in order to fully demonstrate this approaches' efficacy.
 
+### Bibliography
 
+V. Kuperman A. B. Warriner and M. Brysbaert. 2013. Norms of valence arousal and dominance for 13915 english lemmas. 45. 
+
+Jakob Bardram, Mads Frost, Károly Szántó, Maria Faurholt-Jepsen, Maj Vinberg, and Lars Kessing. 2013. Designing mobile health technology for bipo- lar disorder: A field trial of the monarca system. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. 
+
+Carlos Busso, Murtaza Bulut, Chi-Chun Lee, Abe Kazemzadeh, Emily Mower, Samuel Kim, Jean- nette N. Chang, Sungbok Lee, and Shrikanth S. Narayanan. 2008. Iemocap: interactive emotional dyadic motion capture database. 48. 
+
+R. Cowie, E. Douglas-Cowie, B. Apolloni, J. Taylor, A. Romano, and W. Fellenz. 1999. What a neural net needs to know about emotion words. 
+
+Kathleen Kara Fitzpatrick, Alison Darcy, and Molly Vierhile. 2017. Delivering cognitive behavior therapy to young adults with symptoms of depression and anxiety using a fully automated conversational agent (woebot): A randomized controlled trial. 4. 
+
+Kathleen Fraser, Jed Meltzer, and Frank Rudzicz. 2016. Linguistic features identify alzheimer’s disease in narrative speech. 49. 
+
+Kalani Wataraka Gamage, Vidhyasaharan Sethu, and Eliathamby Ambikairajah. 2017. Salience based lex- ical features for emotion recognition. 
+
+Theodoros Giannakopoulos. 2015. pyaudioanalysis: An open-source python library for audio signal analysis. PloS one, 10(12). 
+
+Google. Speech-to-text. 
+
+Agnes Grünerbl, Amir Muaremi, Venet Osmani, Gernot Bahle, Stefan Öhler, Gerhard Tröster, Oscar May- ora, Christian Haring, and Paul Lukowicz. 2014. Smartphone-based recognition of states and state changes in bipolar disorder patients. 19. 
+
+Lili Guo, Longbiao Wang, Jianwu Dang, Yahui Fu, Jiax- ing Liu, and Shifei Ding. 2022. Emotion recognition with multimodal transformer fusion framework based on acoustic and lexical information. 
+Qin Jin, Chengxin Li, Shizhe Chen, and Huimin Wu. 2015. Speech emotion recognition with acoustic and lexical features. 
+
+Eesung Kim and Jong Won Shin. 2019. Dnn-based emotion recognition based on bottleneck acoustic features and lexical features. 
+
+Madhavan Mani, David J Kavanagh, Leanne Hides, and Stoyan R Stoyanov. 2015. Review and evaluation of mindfulness-based iphone apps. 3. 
+
+Charles R. Marmar, Adam D. Brown, Meng Qian, Eu- gene Laska, Carole Siegel, Meng Li, Duna Abu- Amara, Andreas Tsiartas, Colleen Richey, Jennifer Smith, Bruce Knoth, and Dimitra Vergyri. 2019. Speech-based markers for posttraumatic stress disor- der in us veterans. 36. 
+
+Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013. Efficient estimation of word representa- tions in vector space. 
+
+S. Newman and V. G. Mather. 1938. Analysis of spoken language of patients with affective disorders. 94. 
+
+F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duch- esnay. 2011. Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 12:2825–2830. 
+
+T. S. Polzin and A. Waibel. 2000. Emotion-sensitive human- computer interfaces. in Proc. ISCA Work- shop on Speech and Emotion. 
+
+Darius A Rohani, Nanna Tuxen, Andrea Quemada Lopategui, Maria Faurholt-Jepsen, Lars V Kessing, and Jakob E Bardram. 2019. Benefits of using activ- ity recommender technology for self-management of depressive symptoms. volume 4. Proceedings of 13th EAI International Conference on Pervasive Comput- ing Technologies for Health Care. 
+
+Peter J. Rousseeuw. 1987. Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. Journal of Computational and Applied Mathematics, 20:53–65. 
+
+Gerard Salton and Michael J. McGill. 1986. Introduc- tion to Modern Information Retrieval. McGraw-Hill, Inc., New York, NY, USA. 
+
+B. Schuller, R. Mullre, M. Lang, and G. Rigol. 2005. Speaker independent emotion recognition by early fusion of acoustic and linguistic features within en- sembles. in Proc. 9th Eurospeech - Interspeech. 
+
+John Torous, Steven Richard Chan, Shih Yee-Marie Tan, Jacob Behrens, Ian Mathew, Erich J Conrad, Ladson Hinton, Peter Yellowlees, and Matcheri Keshavan. 2014. Patient smartphone ownership and interest in mobile apps to monitor symptoms of mental health conditions: A survey in four geographically distinct psychiatric clinics. 1. 
+
+Felix Weninger, Florian Eyben, Björn Schuller, Mar- cello Mortillaro, and Klaus Scherer. 2013. On the acoustics of emotion in audio: What speech, music, and sound have in common. Frontiers in Psychology, 4. 
+
+X. Zhe and A.C. Boucouvalas. 2002. Text-to-emotion engine for real time internet communication. in Proc. the Int. Symposium on Communication Systems, Net- works, and DSPs. 
