@@ -1,2 +1,3 @@
-audio_processed/*
-audio_files/*
+thesis_audio/*
+.venv/*
+.vscode/*
